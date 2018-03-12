@@ -10,5 +10,5 @@
 
 Инструкция по установке:
 1. npm install
-2.
+2. npm run build
 3.
