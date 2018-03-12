@@ -1,0 +1,49 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Продвинутый курс по веб-разработке в школе онлайн-образования Loftschool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --env development",
+    "build": "webpack --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgorelko/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Dmitry Gorelko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgorelko/portfolio/issues"
+  },
+  "homepage": "https://github.com/dgorelko/portfolio#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.8.1",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "pug": "^2.0.1"
+  }
+}
