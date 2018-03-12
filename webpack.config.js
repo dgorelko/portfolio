@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const merge = require('webpack-merge');
 const pug = require('./config/pug');
 const scss = require('./config/scss');
+const babel = require('./config/babel');
 const extractCSS = require('./config/css.extract');
 const css = require('./config/css');
 const devServer = require('./config/devServer');
@@ -41,7 +42,8 @@ const common = merge ([
       })
     ],
   },
-  pug()
+  pug(),
+  babel()
 ]);
 
 module.exports = function(env) {
